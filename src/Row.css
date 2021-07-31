@@ -7,7 +7,6 @@
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
-    cursor: pointer;
 }
 .row__posters::-webkit-scrollbar{
     display: none;
@@ -27,4 +26,8 @@
 }
 .row__posterLarge:hover {
     transform: scale(1.09);
+}
+
+.row__title{
+    color: aliceblue;
 }
