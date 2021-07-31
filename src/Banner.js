@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from './axios';
 import requests from './request';
 import './Banner.css'
-
+/** Random Banner */
 export default function Banner() {
     const [movie, setMovie] = useState([]);
     useEffect(() => {
